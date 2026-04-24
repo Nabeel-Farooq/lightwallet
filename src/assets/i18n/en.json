@@ -1,0 +1,1282 @@
+{
+    "OK": "Ok",
+    "CANCEL": "Cancel",
+    "GLOBAL": {
+        "PASSWORD": "Password",
+        "CANCEL": "Cancel",
+        "COPY": "Copy",
+        "FEE": "Fee",
+        "SHOW_ADVANCED": "Show advanced"
+    },
+    "LOGIN": {
+        "NETWORK": "Network",
+        "MENU_ENTRY": "Login",
+        "TITLE": "MyETPWallet - THE NEW REALITY",
+        "CREATE_WALLET_TITLE": "Create new wallet",
+        "CREATE_WALLET_TEXT": "Enter the new reality by creating your own Metaverse Blockchain wallet.",
+        "OPEN_WALLET_TITLE": "Open wallet",
+        "OPEN_WALLET_TEXT": "Enter the new reality by importing your existing Metaverse Blockchain wallet.",
+        "OPEN": {
+            "TITLE": "Open existing wallet",
+            "ACCESS_MY_WALLET": "Access my wallet",
+            "NO_WALLET_YET": "No wallet yet? Create a new wallet",
+            "LOCAL_ACCOUNT": "Open from an existing local account",
+            "OR": "You can also open another wallet using on of the following methods",
+            "BACKUP_WORDS": "Backup Words",
+            "BACKUP_WORDS_TEXT": "Open an existing wallet from previously generated backup words.",
+            "FILE": "File",
+            "FILE_TEXT": "Open a wallet from a JSON keystore file wallet.",
+            "QR_CODE": "QR Code",
+            "QR_CODE_TEXT": "Enter a wallet from a QR code.",
+            "PUBLIC_KEY": "Public Key",
+            "PUBLIC_KEY_TEXT": "An extended public key (xpub) allows you to open a view only wallet."
+        },
+        "INFO_TEXT_BROWSER": "Notice for existing MVS wallet users: On your first login to myetpwallet.com, please create a wallet file from your backup words and then open the wallet from the file.",
+        "FILE_BACK_LOGIN_ALERT": {
+            "TITLE": "Backup file generated",
+            "SUBTITLE": "Your backup file has been downloaded. You can now open your wallet using 'Open wallet' and choose the 'File' option.",
+            "OK": "Got it"
+        }
+    },
+    "IMPORT_QR": {
+        "TITLE": "Import QR Code",
+        "HOW_IT_WORKS": "How it works",
+        "HOW_TO_IMPORT_WALLET_MOBILE_STEP1": "Step 1",
+        "HOW_TO_IMPORT_WALLET_MOBILE_STEP1_TEXT": "Open the web lightwallet, go to Settings, and then Connect phone",
+        "HOW_TO_IMPORT_WALLET_MOBILE_STEP2": "Step 2",
+        "HOW_TO_IMPORT_WALLET_MOBILE_STEP2_TEXT": "Scan the QR Code",
+        "HOW_TO_IMPORT_WALLET_MOBILE_STEP3": "Step 3",
+        "HOW_TO_IMPORT_WALLET_MOBILE_STEP3_TEXT": "Enjoy your wallet on your phone!",
+        "BUTTON": {
+            "SCAN": "Start scan",
+            "IMPORT_WALLET": "Import wallet"
+        },
+        "MESSAGE": {
+            "ERROR_QRCODE": "Invalid QR Code format. Please use the QR code in app.myetpwallet.com, in Settings, then Connect phone",
+            "ERROR_NETWORK_MISMATCH": "Network does not match",
+            "PASSWORD_WRONG": "Incorrect password"
+        }
+    },
+    "NEWS": {
+        "MENU_ENTRY": "News",
+        "TITLE": "Latest News",
+        "LINK": "Link",
+        "MESSAGE": {
+            "LOADING_FAILED": "Unable to sync latest news from server."
+        }
+    },
+    "LOADING": {
+        "TITLE": "Syncing the new reality",
+        "RETRY": "Retry",
+        "TO_LOGIN": "Return to Login",
+        "COMPLETE": "Complete",
+        "STOPPED": "Unable to synchonize your transactions. Please check you internet connection or try again later.",
+        "CURRENT_HEIGHT": "Synced to block {{height}}",
+        "BUTTON": {
+            "RETRY": "Retry",
+            "BACK": "Back to login"
+        }
+    },
+    "CREATE_WALLET": {
+        "TITLE": "Create new Wallet",
+        "YOUR_MNEMONIC_WORDS": "Your backup words",
+        "LIGHT_WALLET_INFO_TEXT": "Please be aware that myetpwallet.com does not have access to your wallet keys. If you lose your backup words or key file, we will not be able to grant access to your funds.",
+        "BACKUP_WORDS_WRITE_DOWN_TEXT": "Please write down the following 24 words on a piece of paper. You will need them in order to retrieve the wallet. It's very important that you keep them safe and private. Don't show them to someone.",
+        "BUTTON": {
+            "NEXT": "Next"
+        },
+        "GENERATING_TEXT": "Generating wallet",
+        "CONFIRM_BACKUP": {
+            "TITLE": "Warning",
+            "TEXT": "Confirm that you have written down your backup words",
+            "BUTTON": {
+                "YES": "Yes, I have made a backup",
+                "NO": "No"
+            }
+        }
+    },
+    "SELECT_PASSPHRASE": {
+        "TITLE": "Select passphrase",
+        "TEXT": "We advise you to use a strong password for your own security.",
+        "PASSWORD": "Choose password",
+        "CONFIRM_PASSWORD": "Confirm password",
+        "BUTTON": {
+            "DOWNLOAD_FILE": "Save file",
+            "ENTER": "Enter wallet"
+        },
+        "ERROR": {
+            "MINLENGTH": "Passphrase must have a minimum length of {{requiredLength}}.",
+            "REQUIRED": "This field is mandatory.",
+            "NOTSAME": "Entered values don't match."
+        },
+        "MESSAGE": {
+            "ERROR_MNEMONIC": "Invalid mnemonic. Please try to re-import your account or create a new one.",
+            "ERROR": "Unknown error. Please try again."
+        }
+    },
+    "CERTIFICATES": {
+        "MENU_ENTRY": "Certificates",
+        "TITLE": "Certificates",
+        "SUBTITLE": "Check your list of certificates",
+        "INFORMATION": "Certificates provide special rights to their owners. They can grant permissions for the issuance of Smart Assets.",
+        "NO_CERTIFICATE": "You don't have any certificates"
+    },
+    "MIT": {
+        "TITLE": "MIT - Metaverse Identifiable Token",
+        "MENU_ENTRY": "Identifiable Tokens",
+        "NO_MIT": "You don't have any MIT yet. In order to create MIT you first have to create an avatar.",
+        "BUTTON": {
+            "CREATE_MIT": "Create MIT"
+        }
+    },
+    "MIT_DETAILS": {
+        "OWNER": "Owner",
+        "CREATOR": "Creator",
+        "CONTENT": "Content",
+        "HISTORY": "History",
+        "RECIPIENT_AVATAR": "Recipient Avatar",
+        "STATUS": "Status",
+        "DATE": "Date"
+    },
+    "MST": {
+        "TITLE": "MST - Metaverse Smart Token",
+        "MENU_ENTRY": "Smart Tokens",
+        "GRID": {
+            "TITLE": "My MSTs",
+            "SYMBOL": "Symbol",
+            "TOTAL": "Total",
+            "AVAILABLE": "Available",
+            "UNCONFIRMED": "Unconfirmed",
+            "FROZEN": "Frozen",
+            "BUTTON": {
+                "SEND": "Send"
+            }
+        },
+        "ALL": {
+            "TITLE": "All MSTs",
+            "SYMBOL": "Symbol",
+            "DESCRIPTION": "Description",
+            "LOAD_MORE": "Load more"
+        }
+    },
+    "MST_DETAILS": {
+        "BALANCE": {
+            "TITLE": "My Balance",
+            "TOTAL": "Total",
+            "AVAILABLE": "Available",
+            "CONFIRMING": "Confirming",
+            "FROZEN": "Frozen",
+            "SEND": "Send",
+            "VOTE": "Vote"
+        },
+        "INFO": {
+            "TITLE": "General Information",
+            "MAX_SUPPLY": "Max supply",
+            "TOTAL_SUPPLY": "Total supply",
+            "BURNED_QUANTITY": "Burned quantity",
+            "CIRCULATION_SUPPLY": "Circulation supply",
+            "INITIAL_MAX_SUPPLY": "Initial supply",
+            "ADDED_VIA_SECONDARY_ISSUE": "Added via secondary issue",
+            "MINED_SUPPLY": "Distributed via mining",
+            "MINING_MODEL_INITIAL": "Initial mining reward per block",
+            "MINING_CURRENT_REWARD": "Current mining reward per block",
+            "MINING_CURRENT_REWARD_POW": "Current PoW mining reward per block",
+            "MINING_CURRENT_REWARD_POS": "Current PoS mining reward per block",
+            "MINING_MODEL_INTERVAL": "Mining reward decrease interval",
+            "MINING_MODEL_BASE": "Mining reward decrease per interval",
+            "SECONDARY_ISSUE_PAST": "Secondary Issue No.{{index}}",
+            "SECONDARY_ISSUE_PAST_FROZEN": "This secondary issue contains frozen assets",
+            "SECONDARY_ISSUE_PAST_MODEL_TYPE": "Model",
+            "SECONDARY_ISSUE_PAST_MODEL_QUANTITY": "Total quantity locked",
+            "SECONDARY_ISSUE_PAST_MODEL_PERIOD_NBR": "Number of periods",
+            "SECONDARY_ISSUE_PAST_MODEL_PERIOD": "{{number}} periods",
+            "SECONDARY_ISSUE_PAST_MODEL_PERIOD_TIME": "Each period duration",
+            "SECONDARY_ISSUE_PAST_MODEL_BLOCKS": "{{number}} blocks",
+            "SECONDARY_ISSUE_PAST_MODEL_QUANTITY_MODEL2": "Quantity unlocked after period No.{{number}}",
+            "SECONDARY_ISSUE_PAST_MODEL_PERIOD_MODEL2": "Duration of period No.{{number}}",
+            "SECONDARY_ISSUE": "Secondary issue model",
+            "SECONDARY_ISSUE_DISABLED": "Secondary issue impossible",
+            "SECONDARY_ISSUE_UNLIMITED": "No stacking restriction",
+            "DECIMALS": "Decimals",
+            "ISSUER": "Issuer",
+            "ADDRESS": "Issuance Address",
+            "HASH": "Issuance Transaction",
+            "HEIGHT": "Issuance Block",
+            "DESCRIPTION": "Description",
+            "NO_INFO": "No MST information. If this MST has just been created, please wait for confirmation, or try again later."
+        },
+        "STAKELIST": {
+            "TITLE": "Distribution overview",
+            "LOAD_MORE": "Load more"
+        }
+    },
+    "CREATE_MST": {
+        "TITLE": "Create MST",
+        "INFORMATION": "MST (Metaverse Smart Token) is the token standard use on Metaverse. Any Avatar can create a MST using the form below.",
+        "TOTAL_AVAILABLE_BALANCE": "Total available balance",
+        "AVATAR_AVAILABLE_BALANCE": "Avatar available balance",
+        "FEE": "MST creation fee",
+        "NOTICE_TRANSACTION_FEE_UNCOVERED": "Please make sure that you have enough ETP to cover the transaction fee.",
+        "SYMBOL": {
+            "LABEL": "Symbol",
+            "AVAILABLE": "This Domain name is available. After issuing this MST, you will receive a Domain certificate",
+            "DOMAIN_OWNER": "Your Avatar own the Domain certificate to create this MST",
+            "NAMING_OWNER": "Your Avatar own the Naming certificate to create this MST",
+            "ALREADY_EXIST": "This MST symbol has already been registered",
+            "NOT_CERT_OWNER": "You do not own the Domain certificate to create this MST",
+            "DOMAIN_OWNER_OTHER_MY_AVATARS": "The domain certificate to create this MST is owned by another one of your Avatars. Please issue this MST using the Avatar owning the matching domain certificate.",
+            "ERROR_LOADING_MSTS": "Error while loading MSTs. Please make sure this MST Symbol is not already used",
+            "ERROR_LOADING_CERTS": "Error while loading the Domain certificates. Please make sure you have the right to create this Symbol"
+        },
+        "MAX_SUPPLY": {
+            "LABEL": "Maximum supply",
+            "CUSTOM": "Custom Maximum supply",
+            "ONE_MILLION": "{{number}} (One million)",
+            "TEN_MILLION": "{{number}} (Ten million)",
+            "ONE_HUNDRED_MILLION": "{{number}} (One hundred million)",
+            "ONE_BILLION": "{{number}} (One billion)",
+            "TEN_BILLION": "{{number}} (Ten billion)"
+        },
+        "CUSTOM_MAX_SUPPLY": {
+            "LABEL": "Custom maximum supply",
+            "TOO_HIGH": "Invalid maximum supply. Please decrease the maximum supply or the number of decimals"
+        },
+        "DECIMALS": "Decimals",
+        "SECONDARY_ISSUE": {
+            "ALLOW": "Allow future Secondary Issue",
+            "THRESHOLD": "Secondary Issue threshold"
+        },
+        "MST_MINING": {
+            "ALLOW": "Allow this MST to be mined",
+            "INITIAL_REWARD": "Initial reward per block",
+            "INTERVAL": "Reward decrease interval",
+            "BASE": "Reward decrease per interval",
+            "HELP": {
+                "ALLOW": "MST mining will allow miners to mine this MST. New tokens will be created in each block mined by a miner who choosed to mine it, according the the model selected below",
+                "INITIAL_REWARD": "This is the initial reward of this MST, received by the miner, per block. For instance, this value was 3 for ETP and 50 for BTC",
+                "INTERVAL": "This is the number of blocks between each decrease of reward per block. For instance this value is 500 000 blocks for ETP and 210 000 blocks (4 years) for BTC",
+                "BASE": "This is the base to define the new block reward amount at the end of an interval. For instance this value is 5% decrease per period for ETP and 50% decrease, or halving, for BTC"
+            }
+        },
+        "ISSUER": {
+            "LABEL": "Issuer name",
+            "NO_AVATAR": "You need an Avatar to register a MST. Please create an Avatar first",
+            "TRANSACTION_FEE_UNCOVERED": "This Avatar needs at least 10 ETP to create a MST"
+        },
+        "ISSUE_ADDRESS": "Issue address (address receiving the new token)",
+        "ADDRESS_SELECT_AVATAR": "Please select an Issuer first",
+        "NO_AVATAR_PLACEHOLDER": "No Avatar",
+        "DESCRIPTION": "Description",
+        "SHOW_ADVANCED": "Show advanced",
+        "FEE_DISTRIBUTION": {
+            "LABEL": "Transaction fee distribution",
+            "MINERS": "Miners",
+            "DEVELOPERS": "Developer Community"
+        },
+        "LOCK": "I want to lock this MST",
+        "HELP": {
+            "FEE_DISTRIBUTION": "Transaction fee distribution"
+        },
+        "BUTTON": {
+            "NEXT": "Next",
+            "CANCEL": "Cancel"
+        },
+        "CONFIRMATION": {
+            "TITLE": "Issuing a MST will cost 10 ETP.",
+            "SUBTITLE": "Are you sure you want to create a MST?",
+            "CANCEL": "Cancel",
+            "OK": "Register MST"
+        }
+    },
+    "ACCOUNT": {
+        "MENU_ENTRY": "Portfolio",
+        "TITLE": "Portfolio",
+        "FROZEN": "Frozen",
+        "AVAILABLE": "Available",
+        "UNCONFIRMED": "Unconfirmed",
+        "TOTAL": "Total",
+        "BUTTON": {
+            "SEND": "Send",
+            "RECEIVE": "Receive",
+            "HISTORY": "History"
+        }
+    },
+    "MAIN_MENU": {
+        "HEIGHT": "Height: {{height}}",
+        "APPS": "Apps"
+    },
+    "OPEN_FILE": {
+        "TITLE": "Enter wallet",
+        "CHOOSE_A_FILE": "Choose a file",
+        "IMPORT_FILE": "Please open your wallet file",
+        "IMPORT_BUTTON": "Import account",
+        "PASSWORD": "Password",
+        "WRONG_FILE": {
+            "TITLE": "Incorrect file",
+            "SUBTITLE": "This file is not a MyETPWallet account. Please use the file generated by MyETPWallet, named by default 'mvs_keystore.json'"
+        },
+        "WRONG_PASSWORD": "Wrong password",
+        "LOADER": {
+            "OPENING_FILE": "Opening file...",
+            "ENTERING_WALLET": "Entering the wallet..."
+        }
+    },
+    "DISCLAIMER": {
+        "HEADLINE": "Disclaimer",
+        "INTRODUCTION": "This lightwallet is developed based on blockchain technology design. All account information and transaction activity is stored on public blockchains. The wallet Service Provider will not store users’ wallet private keys, mnemonics or backup words (collectively, “private key information”) in any centralized database. Users’ private key information and files generated through importing private keys belong solely to the person who created the wallet account. The user bears the responsibility to safeguard his/her private key files and password and is solely responsible for the use of his/her account, password and private key information.",
+        "LIST_INTRODUCTION": "You agree that the wallet service provider will not bear any responsibility in the following situations:",
+        "LIST_ITEM_1": "Leaks of personal information due to the user having made known his wallet password/private key information to others, the user not having safeguarded his/her password/private key information, the user having shared his/her wallet account, or any other mistakes that are not committed by the wallet Service Provider.",
+        "LIST_ITEM_2": "The use of this service involves internet services and may be affected by unstable connections. The use of this service entails the risk of service disruptions or services being unable to meet the demands of users due to the following: events of force majeure, malware, viruses and other malicious software, attacks by hackers, unstable operating systems, users’ geographical location, users shutting down their devices and other reasons related to the internet, technology and telecommunication lines. Users must understand and undertake the above risks. The wallet service provider will not be responsible for any consequences resulting from the use of this service.",
+        "LIST_ITEM_3": "The use of asset transfer services is based on users having sufficient knowledge about the counterparty (including but not limited to the counterparty’s real-world identity). There is no way to recall, revoke or undo asset transfers once they have been executed. Users will undertake all risks resulting from the use of asset transfer services once they have executed a transfer. The wallet service provider shall have no legal responsibility for any disputes that arise due to asset transfers. These disputes will be resolved by the sending and receiving parties.",
+        "LIST_ITEM_4": "The service provider only provides technical support for the wallet and will not provide technical support for any other service.",
+        "READ_AND_AGREE": "I have read and agree to the entire disclaimer and voluntarily undertake the risks and responsibilities communicated."
+    },
+    "LEGAL_DISCLAIMER": {
+        "TITLE": "Legal Disclaimer",
+        "BRIEF_EXPLAIN": "MyETPWallet.com makes it easy for you to create, save, and access your information and assets and interact with the Metaverse blockchain. You are solely responsible for managing your funds and for maintaining the security of your private Key and any mnemonic passphrase (‘backup words’) associated with your wallet.",
+        "WARNING": "Before using this wallet, please be aware that there are important risks associated with cryptocurrency and blockchain-based open-source software such as large exchange rate fluctuations and software bugs. By registering an account through MyETPWallet.com or MVSD, you agree that you have read, understood and accept all of the terms and conditions contained in this disclaimer.",
+        "I_TITLE": "I. Accessing and Controlling wallet Information",
+        "I_INFO": "1.1 When you create a wallet account, it generates a mnemonic passphrase (‘backup words’) consisting of 24 English words and a public and private keypair used to send and receive digital currency. You must backup your mnemonic passphrase and private key information and keep it secure; failure to do so may result in the loss of control of the assets within your wallet.",
+        "I_INFO_2": "1.2 The wallet does not collect or store any of our users’ private information, including your password and private keys. This information is stored locally on the user’s own device. Hence, we cannot assist you with wallet retrieval. The Development Team is only responsible for guaranteeing wallet access and fixing software bugs, and is unable to restore encrypted private keys or otherwise recover private keys. If you use MyETPWallet.com, you acknowledge that Metaverse is not responsible for safeguarding or maintaining private keys associated with the wallet. We strongly advise you to back up your wallet files to best protect your property rights.",
+        "II_TITLE": "II. Wallet Security",
+        "II_INFO_1": "2.1 The Metaverse Team will implement appropriate security measures to protect users against data loss, inappropriate use, unauthorized access and/or disclosure. For example, we implement high-standard encryption techniques such as SSL to protect your personal information. Please be advised that we cannot guarantee the absolute security of any data you disclose online, due to technical limitations and unforeseeable hostile actions against the platform. By using our service, the user acknowledges the possibility that the system and telecommunication network they use to access our service can be compromised, which is out of our control. For instance, the software the user has downloaded or websites visited may contain viruses or malwares that threaten the security of the wallet information. Therefore, it is imperative that users ensure the security of their personal information and data. You accept the inherent security risks of providing information and dealing online over the internet and will not hold us responsible for any breach of security unless this is due to our negligence. The development team recommends that users pay special attention to backing up password and private keys offline (e.g. writing them on a piece of paper).",
+        "II_INFO_2": "2.2 Under no circumstances should users trust information originating from non-official sources. Any wallet operation should only take place after the user has completed due diligence and assessed the counterparty’s identity.",
+        "II_INFO_3": "2.3 It is the sole responsibility of the user to protect their wallet security. The developers from the Metaverse Team will take appropriate technical measures in accordance with industry standards to protect data security on the user’s device but are not legally responsible of any data or funds loss. In those circumstances, the user acknowledges and agrees that the Metaverse Team does not guarantee the complete safety of the wallet funds.",
+        "III_TITLE": "III. Contact Us",
+        "III_INFO": "Should you have any question regarding the privacy policies above, please contact us using the following email address: info@mvs.org",
+        "FOOTER": "The Metaverse Team reserves the right to interpret and change the aforementioned clauses at any time, in our sole discretion. MyETPWallet is distributed under the protection of the MIT open source protocol."
+    },
+    "IDENTITIES": {
+        "TITLE": "Addresses",
+        "MENU_ENTRY": "Addresses",
+        "TOTAL": "Total",
+        "AVAILABLE": "Available",
+        "FROZEN": "Frozen",
+        "UNCONFIRMED": "Unconfirmed",
+        "ADDRESS_NO_MST": "This address has no MST.",
+        "CHANGE_ADDRESS_NUMBER": "Change number of addresses",
+        "VM_ADDRESS": "VM address",
+        "NO_VM_ADDRESS": "You do not have a Virtual Machine address yet",
+        "BUTTON": {
+            "CHANGE_ADDRESS_NUMBER": "Change number of addresses",
+            "COPY": "Copy address",
+            "QRCODE": "Show QR Code",
+            "HISTORY": "History",
+            "SWAP": "Swap",
+            "CREATE_AVATAR": "Create Avatar",
+            "CREATE_VM_ADDRESS": "Create VM address",
+            "EXPORT_PRIVATE_KEY": "Export private key"
+        }
+    },
+    "QR_ADDRESS": {
+        "CLOSE": "Close",
+        "COPY": "Copy to clipboard",
+        "COPY_SUCCESS": "Address copied to clipboard."
+    },
+    "SETTINGS": {
+        "MENU_ENTRY": "Settings",
+        "TITLE": "Settings",
+        "RESYNC": {
+            "TITLE": "Force resync",
+            "SUBTITLE": "Force the wallet to resync all transactions and balance data."
+        },
+        "EXPORT_MOBILE": {
+            "TITLE": "Connect phone",
+            "SUBTITLE": "Export your private key to the mobile application MyETPWallet."
+        },
+        "LANGUAGE": {
+            "TITLE": "Language",
+            "SUBTITLE": "Change the language."
+        },
+        "THEME": {
+            "TITLE": "Theme",
+            "SUBTITLE": "Switch between light and dark mode."
+        },
+        "EXPORT_XPUB": {
+            "TITLE": "Export Master Public Key",
+            "SUBTITLE": "The Master Public Key allows to generate all addresses of the wallet but cannot send funds."
+        },
+        "BASE_CURRENCY": {
+            "TITLE": "Base currency",
+            "SUBTITLE": "Choose your base currency that is used for value estimation"
+        },
+        "LOGOUT": {
+            "TITLE": "Logout",
+            "SUBTITLE": "Log out of the wallet."
+        }
+    },
+    "LOGOUT": {
+        "BUTTON": "Logout",
+        "CONFIRMATION": {
+            "TITLE": "Are you sure?",
+            "SUBTITLE": "You can choose to locally save the information of your account, including your encrypted private key, in order to easily login with your password.",
+            "CANCEL": "Cancel",
+            "FORGET": "Forget",
+            "SAVE": "Save"
+        },
+        "CONFIRMATION_NO_ACCOUNT": {
+            "TITLE": "Are you sure?",
+            "SUBTITLE": "All login data will be cleared.",
+            "CANCEL": "Cancel",
+            "OK": "OK"
+        },
+        "SAVE_ACCOUNT_NO_NAME": {
+            "TITLE": "Please enter an Account name",
+            "SUBTITLE": "Please give a name to the account. This account name will only be used locally to identify your accounts."
+        },
+        "SAVE_NEW_USER": {
+            "TITLE": "Choose an account name",
+            "SUBTITLE": "Please give a name to the account. This account name will only be used locally to identify your accounts.",
+            "PLACEHOLDER": "Account name"
+        },
+        "SAVE_ACCOUNT_ALREADY_EXIST": {
+            "TITLE": "Account name already used",
+            "SUBTITLE": "This Account name has already been saved. Please use a different Account name"
+        }
+    },
+    "LANGUAGE": {
+        "TITLE": "Change Language"
+    },
+    "EXPORT_MOBILE": {
+        "TITLE": "Connect phone",
+        "HEADLINE": "Connect your phone",
+        "INTRODUCTION": "To download MyETPWallet on your phone, please visit MyETPWallet.com and click on 'Download wallet'.",
+        "TEXT": "This action will export your private key to your phone. Your private key will be encrypted with the password used for this account and saved on your mobile device. Please scan this QR code from the mobile application MyETPWallet.",
+        "REMINDER_LOGOUT": "Please logout from the app if you switch your phone.",
+        "BUTTON": {
+            "SHOW_FULL_WALLET": "Export full wallet",
+            "SHOW_VIEW_ONLY": "Export view only wallet"
+        },
+        "SHOW_FULL_WALLET": {
+            "TITLE": "Export full wallet"
+        },
+        "SHOW_VIEW_ONLY": {
+            "TITLE": "Export view only wallet"
+        }
+    },
+    "BASE_CURRENCY": {
+        "TITLE": "Base currency"
+    },
+    "IMPORT_WALLET_MNEMONIC": {
+        "TITLE": "Import from words",
+        "TWO_WAYS_TITLE": "Two ways to enter your backup words:",
+        "VIA_TEXTBOX": "Use the texbox",
+        "OR": "Or",
+        "WORD_BY_WORD": "Enter word by word",
+        "WORDS_REMAINING": "{{nbr_words}} words remaining",
+        "WORDS_ALL_OK": "Ready to import",
+        "WORDS_TOO_MANY": "More than 24 words have been entered",
+        "INCORRECT_WORD": "Incorrect word No. ",
+        "INCORRECT_MNEMONIC": "This mnemonic is not correct. Please double check the order of the words",
+        "IMPORT_BUTTON": "Import account",
+        "RESET": "Reset",
+        "BOTTOM_TEXT": "A wallet file will be created for you. This file will enable you to access your wallet.",
+        "BOTTOM_TEXT_MOBILE": "Your private key will be stored and encrypted via your password on your device."
+    },
+    "HISTORY": {
+        "TITLE": "Transaction history",
+        "MENU_ENTRY": "History",
+        "TRANSACTIONS": "Transactions",
+        "NO_TXS_YET": "No transactions yet",
+        "NO_TXS_YET_TEXT": "Start using your wallet today!",
+        "UNLOCK_APPROXIMATION_INFORMATION": "*Please be aware that the 'Locked until' date is an approximation based on the number of block remaining and the average blocktime of the last 10000 blocks. It might vary based on block generation speed.",
+        "LOCKS": "Locks",
+        "ASSETS_LIST": "Asset",
+        "ADDRESSES_LIST": "Addresses",
+        "SELECT_ALL_ADDRESSES": "Select all",
+        "SELECT_NONE_ADDRESSES": "Unselect all",
+        "TOTAL_INPUTS": "Total inputs",
+        "TOTAL_OUTPUTS": "Total outputs",
+        "INPUT_COINBASE": "From coinbase",
+        "TYPE": {
+            "did-register": "Avatar creation",
+            "did-transfer": "Avatar transfer",
+            "mit": "MIT",
+            "message": "Public message or data",
+            "CERT": {
+                "issue": "Secondary Issue certificate",
+                "domain": "Domain certificate",
+                "naming": "Naming certificate",
+                "mining": "Mining certificate",
+                "witness": "Witness certificate"
+            }
+        },
+        "LOCKED_TRANSACTION": "Transaction",
+        "LOCKED_AMOUNT": "Locked amount: {{number}} {{asset}}",
+        "LOCKED_SINCE_BLOCK": "Locked since block {{block}} ({{time}})",
+        "LOCKED_UNTIL_BLOCK_ONLY": "Locked until block {{block}}",
+        "LOCKED_UNTIL_BLOCK": "Locked until block {{block}} (~{{time}})",
+        "LOCKED_FOR_BLOCKS": "Locked for {{number}} blocks",
+        "INTRAWALLET": "Intrawallet",
+        "TX_TYPE": {
+            "ETP": "ETP transfer",
+            "ASSET": "MST transfer",
+            "ISSUE": "MST issue",
+            "CERT": "Certificate transfer",
+            "CERT_TYPE": {
+                "issue": "Secondary Issue certificate",
+                "domain": "Domain certificate",
+                "naming": "Naming certificate",
+                "mining": "Mining certificate",
+                "witness": "Witness certificate"
+            },
+            "DID_REGISTER": "Avatar creation",
+            "DID_TRANSFER": "Avatar transfer",
+            "MIT": "MIT",
+            "COINSTAKE": "Coinstake transaction",
+            "MST_MINING": "Mining reward",
+            "ETP_LOCK": "ETP lock",
+            "ETP_LOCK_REWARD": "ETP lock reward",
+            "MST_LOCK": "MST lock",
+            "VM_ETP": "MVM ETP transfer"
+        },
+        "NO_LOCK_YET": "No lock transaction yet",
+        "ORDER_BY": "Order by",
+        "ORDER_BY_HEIGHT": "Locking time",
+        "ORDER_BY_UNLOCK_HEIGHT": "Unlocking time",
+        "DIRECTION": "Direction",
+        "DIRECTION_LATEST_TOP": "Latest on top",
+        "DIRECTION_EARLIEST_TOP": "Earliest on top",
+        "FROZEN_TX": "Currently locked transactions",
+        "UNFROZEN_TX": "Unlocked transactions"
+    },
+    "ACCOUNT_MANAGEMENT": {
+        "LOGOUT": {
+            "TITLE": "Are you sure?",
+            "TEXT": "You can choose to locally save the information of your account, including your encrypted private key, in order to easily login with your password.",
+            "BUTTON": {
+                "SAVE": "Save",
+                "FORGET": "Forget",
+                "BACK": "Back"
+            }
+        },
+        "LOGOUT_ASK_USERNAME": {
+            "TITLE_DEFAULT": "Choose an account name",
+            "TEXT_DEFAULT": "Please give a name to the account. This account name will only be used locally to identify your accounts.",
+            "TITLE_NO_NAME": "Please enter an Account name",
+            "TEXT_NO_NAME": "Please give a name to the account. This account name will only be used locally to identify your accounts.",
+            "TITLE_ALREADY_EXIST": "Account name already used",
+            "TEXT_ALREADY_EXIST": "This Account name has already been saved. Please use a different Account name.",
+            "INPUT": {
+                "PLACEHOLDER": "Account name"
+            },
+            "BUTTON": {
+                "BACK": "Back",
+                "OK": "OK"
+            }
+        }
+    },
+    "LOGIN_ACCOUNT": {
+        "TITLE": "Login from account",
+        "PASSWORD": "Password",
+        "LOGIN_BUTTON": "Next",
+        "FORGET_BUTTON": "Forget account",
+        "FORGET": {
+            "TITLE": "Forget account?",
+            "SUBTITLE": "If you choose to forget your account, all its information saved on your device will be deleted. To login, you will need your 24 backup words or your keystore file.",
+            "BUTTON": {
+                "BACK": "Back",
+                "FORGET": "Forget"
+            }
+        }
+    },
+    "SEND": {
+        "TITLE": "Transfer",
+        "SEND_SINGLE": "Send to one",
+        "SEND_MANY": "Send to many",
+        "NOTICE_TRANSACTION_FEE_UNCOVERED": "Please make sure that you have enough ETP to cover the transaction fee.",
+        "AVAILABLE_BALANCE": "Available balance",
+        "TOO_MANY_DECIMALS": "You have specified too many decimals",
+        "MESSAGE": {
+            "INSUFFICIENT_BALANCE": "You need at least 10 ETP to create a MST.",
+            "ERROR_TOO_MANY_INPUTS": "Too many inputs",
+            "ERROR_TOO_MANY_INPUTS_TEXT": "This transaction contains too many inputs. Please try a smaller amount",
+            "CREATE_TRANSACTION": "Unable to create transaction.",
+            "ERROR_SEND_TEXT": "Could not create the transaction. Please check your input and try again.",
+            "ONE_TX_PER_BLOCK": "Please note currently each account can only broadcast 1 transaction per block",
+            "BROADCAST_ERROR": "Unable to broadcast the transaction. Please check you internet connection or try again later."
+        }
+    },
+    "ERROR": {
+        "PASSWORD": {
+            "required": "Please enter your password",
+            "minlength": "Password too short"
+        },
+        "SAVE_ACCOUNT": "Error while saving your account"
+    },
+    "SEND_SINGLE": {
+        "TO_AVATAR": "Send to avatar",
+        "RECIPIENT_AVATAR": "Recipient avatar",
+        "RECIPIENT_ADDRESS": "Recipient address",
+        "AMOUNT": "Amount",
+        "SEND_FROM": "Select source address (optional)",
+        "SEND_FROM_AUTO": "Automatic",
+        "FROM_ADDRESS_NO_ETP": "This address doesn't have any ETP. Please add ETP to this address or use the Automatic option.",
+        "SHOW_ADVANCED": "Show advanced options",
+        "FEE": "Fee",
+        "MESSAGE": "Public message (optional)",
+        "HELP": {
+            "MESSAGE": "This message will be clearly and publicly displayed in your transaction. Do not enter any personal data!"
+        },
+        "ALL": {
+            "TITLE": "Send all?",
+            "SUBTITLE": "Do you really want to send all your available balance?",
+            "OK": "Ok",
+            "CANCEL": "Cancel"
+        },
+        "MESSAGE_TOO_LONG": "Too long message. Please use a shorter message",
+        "CHANGE_ADDRESS": "Specify change address (optional)",
+        "CHANGE_ADDRESS_AUTO": "Automatic",
+        "GENERATING_TX_TEXT": "Generating transaction...",
+        "SENDING_TX_TEXT": "Sending transaction...",
+        "BUTTON": {
+            "SEND_ALL": "Send All",
+            "NEXT": "Next",
+            "CANCEL": "Cancel"
+        },
+        "UNKNOWN_ERROR": {
+            "TITLE": "Something went wrong",
+            "BUTTON": {
+                "OK": "Ok"
+            }
+        }
+    },
+    "SEND_MORE": {
+        "FEE": "Fee",
+        "TO_AVATAR": "Send to avatars",
+        "RECIPIENT_TITLE": "Recipient {{index}}",
+        "RECIPIENT_ADDRESS": "Recipient address {{index}}",
+        "RECIPIENT_AVATAR": "Recipient avatar {{index}}",
+        "AMOUNT": "Amount {{index}}",
+        "TOTAL_TO_SEND": "Total to send:",
+        "SEND_FROM": "Select source address (optional)",
+        "SEND_FROM_AUTO": "Automatic",
+        "SHOW_ADVANCED": "Show advanced options",
+        "MESSAGE": "Public message (optional)",
+        "MESSAGE_TOO_LONG": "Too long message. Please use a shorter message",
+        "CHANGE_ADDRESS": "Specify change address (optional)",
+        "CHANGE_ADDRESS_AUTO": "Automatic",
+        "TOTAL_MORE_AVAILABLE": "The total is higher than your available balance",
+        "IMPORT_CSV_TOO_MANY_RECIPIENT": {
+            "TITLE": "Too many recipient",
+            "MESSAGE": "This file contains too many recipients. The maximum number of recipients is limited to "
+        },
+        "HELP": {
+            "MESSAGE": "This message will be clearly and publicly displayed in your transaction. Do not enter any personal data!"
+        },
+        "BUTTON": {
+            "IMPORT_FROM_CSV": "Import from CSV",
+            "EXPORT_CSV": "Export to CSV",
+            "DOWNLOAD_CSV_EXAMPLE": "Download CSV example",
+            "ADD_RECIPIENT": "Add recipient",
+            "NEXT": "Next",
+            "CANCEL": "Cancel"
+        }
+    },
+    "ASSET_LOCK": {
+        "TITLE": "I want to lock this asset",
+        "PERIOD": "Lock period (in blocks)",
+        "SIMPLE": "Simple unlock",
+        "RECURRENT": "Recurrent unlock",
+        "CUSTOM": "Custom unlock",
+        "NBR_PERIOD": "Number of periods",
+        "DURATION": "Locked duration (in blocks)",
+        "TOTAL_QUANTITY": "Total locked quantity: {{quantity}} {{asset}}",
+        "TOTAL_DURATION": "Total locked duration: {{number}} blocks",
+        "PERIOD_NBR": "Period {{period_nbr}}",
+        "DURATION_CUSTOM_PERIOD": "Duration of period {{period_nbr}} (in blocks)",
+        "AMOUNT_CUSTOM_PERIOD": "Amount unlocked at the end of period {{period_nbr}}",
+        "TOTAL_MORE_SEND": "The sum of the amounts of each period is higher than the send amount specified above",
+        "DURATION_ESTIMATION": "Your MST will be locked for approximately {{duration_days}} days and {{duration_hours}} hours. Be aware that this estimation is based on the blocktime of the last 10000 blocks ({{blocktime}} sec.), and might vary based on block generation speed.",
+        "HELP": {
+            "NBR_PERIOD": "This is the total number of periods that will be used.",
+            "TOTAL_DURATION": "This is the total number of blocks until the last period terminates."
+        },
+        "BUTTON": {
+            "IMPORT_FROM_CSV": "Import from CSV",
+            "EXPORT_CSV": "Export to CSV",
+            "DOWNLOAD_CSV_EXAMPLE": "Download CSV example",
+            "ADD_PERIOD": "Add period"
+        }
+    },
+    "TOAST": {
+        "WRONG_PASSWORD": "Wrong password, please try again",
+        "ERR_CONNECTION": "Unable to broadcast the transaction. Please check you internet connection or try again later.",
+        "ERR_INSUFFICIENT_BALANCE": "Insufficient balance. Please double check your available balance.",
+        "ERR_TOO_MANY_INPUTS": "This transaction contains too many inputs. Please try a smaller amount.",
+        "COPY": {
+            "ADDRESS": "Address copied!",
+            "AVATAR": "Avatar name copied!",
+            "TX": "Transaction copied!",
+            "XPUB": "Public key copied!",
+            "PRIVATE_KEY": "Private key copied!",
+            "DEFAULT": "Copied!"
+        }
+    },
+    "DEVELOPER": {
+        "REMOVE_ACCOUNTS": "Clear Accounts",
+        "REMOVE_TRANSACTIONS": "Clear Transactions"
+    },
+    "XPUB": {
+        "TITLE": "Login from public key",
+        "INFORMATION": "Use your public key to import an account in View only mode. You will be able to receive assets and see your addresses, balances and history, but you will not be able to send assets.",
+        "PUBLIC_KEY": "Public key",
+        "VALID_XPUB": "Ready to open account starting with address {{address}}",
+        "INVALID_XPUB": "Invalid public key. please make sure you are using the right format (starting with 'xpub')",
+        "BUTTON": {
+            "NEXT": "Next"
+        }
+    },
+    "EXPORT_MASTER_PUBLIC_KEY": {
+        "TITLE": "Export Master Public Key",
+        "WARNING": "The Master Public Key allows the generation of all your wallets addresses. Even though it cannot be used to access the funds you should be very careful when you share it with somebody.",
+        "PASSWORD": "Password",
+        "BUTTON": "Show Key",
+        "YOUR_KEY": "Your master public key:"
+    },
+    "CONFIRM": {
+        "TITLE": "Confirm transaction",
+        "PAGE_TITLE": "Review, sign and send the transaction",
+        "PASSWORD": "Password",
+        "SHOW_ADVANCED": "Show advanced options",
+        "PREVIEW_TX": "Your encoded transaction will be:",
+        "PREVIEW_SIGNED_TX": "Your signed encoded transaction is:",
+        "PREVIEW_UNSIGNED_TX": "Your unsigned encoded transaction is:",
+        "CONFIRM_ALERT": {
+            "TITLE": "Awesome!",
+            "SUBTITLE": "Your transaction has been sent successfully",
+            "OK": "Ok"
+        },
+        "BUTTON": {
+            "CANCEL": "Cancel",
+            "COPY": "Copy",
+            "SIGN_ONLY": "Sign only",
+            "SIGN_AND_SEND": "Sign and send",
+            "BROADCAST": "Broadcast",
+            "RETURN_HOME": "Return to home"
+        },
+        "MESSAGE": {
+            "PASSWORD_WRONG": "Incorrect password",
+            "INSUFFICIENT_BALANCE": "Insufficient balance. Please double check your available balance.",
+            "ERROR_TOO_MANY_INPUTS": "Too many inputs",
+            "ERROR_TOO_MANY_INPUTS_TEXT": "This transaction contains too many inputs. Please try a smaller amount",
+            "ALREADY_SIGN_TRANSACTION": "You have already signed this transaction, no need to sign it again!",
+            "SIGN_TRANSACTION": "Unable to sign this transaction",
+            "BROADCAST_TRANSACTION": "Unable to broadcast the transaction.",
+            "ERROR_SEND_TEXT": "Could not create the transaction. Please check your input and try again."
+        }
+    },
+    "TX": {
+        "INPUTS": "Inputs:",
+        "OUTPUTS": "Outputs:",
+        "TX_SUMMARY": "Transaction summary",
+        "TOTAL_INPUTS": "Total inputs",
+        "TOTAL_OUTPUTS": "Total outputs",
+        "INPUT_COINBASE": "From coinbase",
+        "TYPE": {
+            "did-register": "Avatar creation",
+            "did-transfer": "Avatar transfer",
+            "message": "Public message or data",
+            "MIT": {
+                "registered": "MIT Creation",
+                "transfered": "MIT Transfer"
+            },
+            "CERT": {
+                "issue": "Secondary Issue certificate",
+                "domain": "Domain certificate",
+                "naming": "Naming certificate",
+                "mining": "Mining certificate",
+                "witness": "Witness certificate"
+            },
+            "BURN": "To be burned"
+        },
+        "PENDING_CONFIRMATION": "Pending confirmation",
+        "CONFIRMING": "Confirming",
+        "TX_FEE": "Fee",
+        "LOCKED_SINCE_BLOCK": "Locked since block {{block}} ({{time}})",
+        "LOCKED_UNTIL_BLOCK": "Locked until block {{block}} (~{{time}})",
+        "INTRAWALLET": "Intrawallet",
+        "TX_TYPE": {
+            "ETP": "ETP transfer",
+            "ASSET": "MST transfer",
+            "ISSUE": "MST issue",
+            "CERT": "Certificate transfer",
+            "CERT_TYPE": {
+                "issue": "Secondary Issue certificate",
+                "domain": "Domain certificate",
+                "naming": "Naming certificate",
+                "mining": "Mining certificate",
+                "witness": "Witness certificate"
+            },
+            "DID_REGISTER": "Avatar creation",
+            "DID_TRANSFER": "Avatar transfer",
+            "MIT_REGISTERED": "MIT Creation",
+            "MIT_TRANSFERED": "MIT Transfer",
+            "COINSTAKE": "Coinstake transaction",
+            "MST_MINING": "Mining reward",
+            "ETP_LOCK": "ETP lock",
+            "ETP_LOCK_REWARD": "ETP lock reward",
+            "MST_LOCK": "MST lock",
+            "MINING_REWARD": "Mining reward",
+            "BURN_ETP": "Burn ETP transaction",
+            "BURN_MST": "Burn MST transaction",
+            "DNA_VOTE": "DNA vote",
+            "VM_ETP": "MVM ETP transfer",
+            "UNKNOWN": "Unknown transaction type"
+        },
+        "SELECT_MODE": "Visualisation mode",
+        "MODE": {
+            "SUMMARY": "Summary",
+            "DEFAULT": "Default mode",
+            "SATOSHI": "Satoshi mode",
+            "HEX": "Hexadecimal mode"
+        },
+        "SIGN_STATUS": {
+            "SIGNED": "Fully signed transaction",
+            "UNSIGNED": "Unsigned transaction",
+            "PARTIALLY": "Partially signed transaction"
+        },
+        "OUTPUT": {
+            "LOCKED_UNTIL_BLOCK": "Locked until block {{block}} (~{{time}})"
+        },
+        "SHOW_DETAILS": "Show details",
+        "HIDE_DETAILS": "Hide details",
+        "INPUT_HASH": "Hash",
+        "INPUT_INDEX": "Index",
+        "FOREIGN_INPUT": "Foreign input",
+        "INPUTS_NOT_ALL_MINE": "Some inputs are not yours! Only your inputs will be signed."
+    },
+    "CREATE_MIT": {
+        "MENU_ENTRY": "Create MIT",
+        "TITLE": "Create MIT",
+        "INFORMATION": "MIT (Metaverse Identifiable Token) is the non-fungible token standard on Metaverse. A MIT has a unique symbol and a content that cannot be changed. Its quantity is always 1 and cannot be split. It can only be created by and transferred to an Avatar. MITs can be used to represent any unique digital or physical object, and easily trace its transfer from Avatars to Avatars. The complete ownership history is recorded on the blockchain and publicly visible",
+        "FEE_WARNING": "MIT Creation fee: {{fee}} ETP",
+        "SYMBOL": "Symbol",
+        "CONTENT": "Content",
+        "AVATAR_NAME": "Recipient Avatar name",
+        "NO_AVATAR": "You need an Avatar to register a MIT. Please create an Avatar first",
+        "RECIPIENT_ADDRESS": "Recipient Avatar address",
+        "SELECT_AVATAR": "Please select a Recipient Avatar first",
+        "NO_AVATAR_PLACEHOLDER": "No Avatar",
+        "MIT_ALREADY_EXIST": "This MIT symbol has already been registered",
+        "MIT_SYMBOL_TOO_SHORT": "The MIT symbol must be at least 3 characters long",
+        "SHOW_ADVANCED": "Show advanced",
+        "FEE": "MIT Creation fee",
+        "BUTTON": {
+            "NEXT": "Next",
+            "CANCEL": "Cancel"
+        }
+    },
+    "AVATAR": {
+        "MENU_ENTRY": "Avatars",
+        "TITLE": "Avatars",
+        "INFORMATION": "Avatars represent your Digital Identity on Metaverse Blockchain. You can use your Avatar name to send and receive ETP in place of your address. Avatars can create MST and MIT",
+        "NO_AVATARS": "You do not have any avatar yet. Click on Create to create your first Avatar!",
+        "CERT": {
+            "TITLE": "My certificates:",
+            "SECONDARY_ISSUE": "Secondary Issue",
+            "DOMAIN": "Domain",
+            "NAMING": "Naming"
+        },
+        "MINING": "Mining",
+        "BUTTON": {
+            "CREATE_MIT": "Create MIT",
+            "CREATE_MST": "Create MST",
+            "CREATE_AVATAR": "Create Avatar"
+        }
+    },
+    "CREATE_AVATAR": {
+        "TITLE": "Create Avatar",
+        "INFORMATION": "Avatars represent your Digital Identity on Metaverse Blockchain. You can use your Avatar name to send and receive ETP in place of your address. Avatars can create MST and MIT",
+        "NAME": "Avatar name",
+        "NAME_TOO_SHORT": "The Avatar name must be at least 3 characters long",
+        "AVATAR_ALREADY_EXIST": "This Avatar name has already been registered",
+        "ADDRESS": "Linked address",
+        "ADDRESS_SUBTITLE": "You can link your Avatar only to an address with at least 1 ETP available",
+        "NO_ADDRESS_1ETP": "You do not have any available address with at least 1 ETP available. Please send at least 1 ETP to an available address (not already linked to an Avatar) to create a new Avatar",
+        "MESSAGE": "Message",
+        "SHOW_ADVANCED": "Show advanced",
+        "BOUNTY_FEE": "Transaction fee distribution",
+        "BOUNTY_FEE_MINERS": "Miners",
+        "BOUNTY_FEE_DEVELOPERS": "Developer Community",
+        "HELP": {
+            "NAME": "Your Avatar name is a unique symbol. It can contain numbers, uppercase letters, lowercase letters, dots, dashes, underscores and @. It can be used instead of your ETP address to receive ETP and other assets.",
+            "ADDRESS": "Your Avatar will be linked to this address. Each address can only be linked to 1 Avatar.",
+            "MESSAGE": "Leave a message to the world! This message will be clearly and publicly displayed in your transaction. Do not enter any personal data!",
+            "BOUNTY_FEE": "You can choose how your fee will be distributed, between the Miners and the Developer Community. This does not impact the total fee that you pay for the transaction. The maximum share for the Developer Community is 80%."
+        },
+        "CONFIRMATION": {
+            "TITLE": "Creating an Avatar cost 1 ETP.",
+            "SUBTITLE": "Are you sure you want to create an Avatar?",
+            "OK": "Create",
+            "CANCEL": "Cancel"
+        },
+        "BUTTON": {
+            "NEXT": "Create Avatar",
+            "CANCEL": "Cancel"
+        }
+    },
+    "BITIDENT": {
+        "MENU_ENTRY": "Bitident",
+        "INFORMATION": "You can use your Metaverse Avatar to authenticate to various websites or applications. After verifying the provider of the request, it will sign a message using your private key and send the signed message to the requester in order to prove ownership of this Avatar. These steps will neither create any transaction on the blockchain nor reveal your private key to the requester.",
+        "TITLE": "Bitident",
+        "DESCRIPTION_PICTURE": "Using the MyETPWallet mobile app, you can directly scan the QR Code from the requester. Alternatively, you can also manually enter the request code into the field below.",
+        "GET_ON_MOBILE": "Get the mobile app",
+        "CHECK": "Check",
+        "TOKEN_INPUT_LABEL": "Request code",
+        "HOWTO": {
+            "TITLE": "How to use bitident",
+            "STEP1": "Open the website where you want to authenticate using your Metaverse Avatar",
+            "STEP2": "Using MyETPWallet, scan the provided QR Code",
+            "STEP3": "Access the website with your Avatar!"
+        },
+        "BUTTON": {
+            "SCAN_QRCODE": "Scan QR Code",
+            "ENTER_MANUALLY": "Enter request code manually",
+            "HOW_TO_AUTH": "How to authenticate"
+        },
+        "CONFIRM": {
+            "INFORMATION": "You can use your Metaverse Avatar to authenticate to various websites or applications. After verifying the provider of the request, it will sign a message using your private key and send the signed message to the requester in order to prove ownership of this Avatar. These steps will neither create any transaction on the blockchain nor reveal your private key to the requester.",
+            "TITLE": "Please verify the requester information:",
+            "SELECT_AVATAR": "Select an avatar",
+            "VERIFY_SOURCE": "Source",
+            "VERIFY_AVATAR": "Avatar",
+            "VERIFY_HOST": "Host",
+            "VERIFY_REMAINING_TIME": "Remaining time",
+            "VERIFY_CALLBACK": "Callback",
+            "VERIFY_TIME_OF_REQUEST": "Time of request",
+            "VERIFY_REQUEST_DURATION": "Timeout",
+            "VERIFY_REQUEST_DURATION_VALUE": "{{seconds}} seconds",
+            "SHOW_DETAILS": "Show Details",
+            "HIDE_DETAILS": "Hide Details",
+            "NO_SIG_AGREE": "This request was not signed. Please make sure this request is legit before signing it.",
+            "PASSWORD": "Password",
+            "BUTTON": {
+                "NEXT": "Confirm signing",
+                "CANCEL": "Cancel"
+            }
+        },
+        "MESSAGE": {
+            "TOKEN_MISSING": "No authentication token found",
+            "SEND_INVALID_SIGNATURE": "Your signature is incorrect. Please make sure the information are correct and try again.",
+            "HIGHER_VERSION": "The request version is not compatible with your version of MyETPWallet. Please upgrade MyETPWallet to be able to authenticate.",
+            "NO_AVATAR_TITLE": "No Avatar",
+            "NO_AVATAR_TITLE_BODY": "You need an Avatar in order to use the authentication feature. Please create an Avatar first.",
+            "TYPE_NOT_SUPPORTED": "This type of request is not supported. Only 'auth' is supported.",
+            "UNKNOWN_AVATAR": "You do not possess this Avatar, please make sure you are the owner of it:",
+            "TIMEOUT": "This request has already timeout. Please get a new request.",
+            "SIGN": "Error while signing the message",
+            "WRONG_INCOMING_DATA": "Error in the incoming data. Please make sure the data is correct and try again.",
+            "WRONG_SIGNATURE": "The signature provided by the source's avatar is incorrect",
+            "SIGNIN_SUCCESSFUL_TITLE": "Authentication successfull!",
+            "SIGNIN_SUCCESSFUL_BODY": "You have been logged in successfully. You can now go back to the webiste.",
+            "SEND_SIG_ERROR": "Error while sending your signature. Please check your connection and try again.",
+            "EXPIRED": "Authentication token expired. Please get a new token.",
+            "DIFFERENT_NETWORK": "You are not using the network matching this request. Please switch to the following network:"
+        }
+    },
+    "SWFT": {
+        "MENU_ENTRY": "SWFT",
+        "TITLE": "SWFT - Token Swap",
+        "RECIPIENT_ADDRESS": "Recipient address",
+        "FROM_ASSET": "Send",
+        "AMOUNT_SEND": "Amount",
+        "TO_ASSET": "Receive",
+        "AMOUNT_RECEIVE": "Amount",
+        "MIN_MAX_DEPOSIT": "Min-max deposit range: {{min}}-{{max}} {{symbol}}, deposit fee: {{fee}}%",
+        "RATE_INFO": "Rate: {{rate}}",
+        "RECEIVE_COIN_FEE": "Receive coin fee: {{fee}} {{symbol}}",
+        "DEPOSIT_ADDRESS": "{{symbol}} deposit address",
+        "REFUND_ADDRESS": "{{symbol}} refund address",
+        "RECEIVE_ADDRESS": "{{symbol}} receive address",
+        "REFUND_TX": "{{symbol}} refund transaction",
+        "RECEIVE_TX": "{{symbol}} receive transaction",
+        "HISTORY_TITLE": "History",
+        "HISTORY_DESCRIPTION": "This history is only saved locally. An order will only appear on the device used to generate it and till you logout. If you need a record, please save the order ID.",
+        "ETP_BRIDGE_DETAILS": "Order details",
+        "MESSAGE": {
+            "CREATE_SWFT_ORDER_ERROR": "Error while creating the order. Please check your inputs and try again.",
+            "UNABLE_CONNECT_SWFT": "Unable to connect to SWFT. Please check your internet connection or try again later.",
+            "SUCCESS_CREATE_SWFT_TITLE": "Order created!",
+            "SUCCESS_CREATE_SWFT_BODY": "Your order has been created. The next step is to do the deposit.",
+            "SUCCESS_IMPORT_SWFT_TITLE": "Order imported!",
+            "SUCCESS_IMPORT_SWFT_BODY": "Order imported successfully"
+        },
+        "STATUS": {
+            "wait_deposit_send": "Waiting for deposit",
+            "wait_exchange_push": "Exchanging...",
+            "wait_exchange_return": "Exchanging...",
+            "wait_refund_send": "Exchange failure, preparing refund",
+            "wait_refund_confirm": "Tokens returned, awaiting blockchain confirmation",
+            "wait_refund_complete": "Order failed, token successfully returned",
+            "wait_receive_send": "Sending tokens",
+            "wait_receive_confirm": "Tokens sent, awaiting blockchain confirmation",
+            "receive_complete": "Order completed",
+            "timeout": "Order timeout",
+            "fail": "Order failed"
+        },
+        "STATUS_DESCRIPTION": {
+            "wait_deposit_send": "The order has been created. Please deposit your tokens to the address specified below. If you already did the deposit, please wait.",
+            "wait_exchange_push": "Your tokens are have been received and are being exchanged at the current rate.",
+            "wait_exchange_return": "Your tokens are have been received and are being exchanged at the current rate.",
+            "wait_refund_send": "The exchange has failed. Your deposit will be sent back to your refund address.",
+            "wait_refund_confirm": "The order has failed. The refund has been sent back to your refund address, waiting for the blockchain confirmation",
+            "wait_refund_complete": "The order has failed, your deposit has been successfully returned to your refund address",
+            "wait_receive_send": "Your deposit and the exchange have been successfully completed, your tokens are being sent.",
+            "wait_receive_confirm": "Exchange successful, your tokens have been sent, waiting for blockchain confirmation.",
+            "receive_complete": "The order is completed, your tokens have been sent and confirmed.",
+            "timeout": "The deposit has not been done on time, the order is now timeout",
+            "fail": "The order has failed"
+        },
+        "DEPOSIT_ADDRESS_ADVICE": "Please deposit {{amount}} {{symbol}} to this address",
+        "REFUND_ADDRESS_ADVICE": "This is your refund address. In case of problem, your deposit will be sent back to this address.",
+        "RECEIVE_ADDRESS_ADVICE": "You will receive the {{symbol}} on this address",
+        "IMPORT_ORDER": "Import existing order",
+        "CREATE_ORDER": "Create a new order",
+        "CREATE_ORDER_DESCRIPTION": "Create an order to buy or sell ETP from or to many other coins. After creating the order, don't forget to do the Deposit.",
+        "ORDER_ID": "Order ID",
+        "IMPORT_ORDER_BUTTON": "Import order",
+        "SEE_DETAILS_BUTTON": "See details",
+        "INFORMATION": "This service is provided by SWFT. In case of issue, please contact SWFT support on ",
+        "IMPORT_ORDER_DESCRIPTION": "If you created an order from another device or directly from SWFT website, you can import it with the order ID to follow its status.",
+        "INFORMATION_WARNING": "The SWFT telegram support will never ask a user to send any funds to addresses other than the deposit address of the order details. Details about the order should not be necessary. The order id should be enough information for the support to find the order.",
+        "INFORMATION_LINK": "Telegram",
+        "TOAST": {
+            "ID_COPIED": "Order ID copied!"
+        },
+        "BUTTON": {
+            "NEXT": "Swap",
+            "CANCEL": "Cancel",
+            "DEPOSIT": "Deposit"
+        }
+    },
+    "SWFT_DETAILS": {
+        "HEADLINE": "Order details"
+    },
+    "MESSAGE": {
+        "LOADING": "Loading...",
+        "ERROR_TITLE": "Oops...",
+        "OK": "Ok",
+        "PASSWORD_WRONG": "Wrong password, please try again"
+    },
+    "MULTISIG": {
+        "MENU_ENTRY": "Multisignature",
+        "TITLE": "Multisignature",
+        "SUBTITLE": "Share a multisignature address with co-signers",
+        "HEADLINE": "Multisignature",
+        "WARNING_MULTISIG_TITLE": "Multisignature addresses and transactions via MyETPWallet are in Beta!",
+        "WARNING_MULTISIG_MESSAGE": "Since v0.6.0, you can now use multisignature addresses in MyETPWallet. However, please use this new feature carefully and avoid sending important quantity of ETP or MST to your multisignature addresses. If you notice any bug, do not hesitate to report it via Report Bug in the main menu!",
+        "INFORMATION": "You can use multisignature addresses in order to share a multisignature address with other users. This address will require the signature of a defined number of members in order to do a transaction.",
+        "INFORMATION2": "A multisignature addresses can send and receive ETP and MST. This page will automatically display all the MST hold by each address.",
+        "NO_ADDRESS": "You do not have any multisignature address yet. Create one by clicking on the button below!",
+        "ADD_ADDRESS": "Add multisignature address",
+        "YOUR_PUBLICKEY": "Your public key",
+        "PUBLIC_KEYS": "Public keys",
+        "DETAILS": "Multisignature address details",
+        "NBR_PERSON": "Number of co-signers",
+        "SIGN_REQ": "Signatures required",
+        "SEND_ETP": "Send ETP",
+        "SEND": "Send {{symbol}}",
+        "CURRENT_NBR_SIGN": "Current number of signatures",
+        "NEW_NBR_SIGN": "New number of signatures",
+        "ADD": {
+            "HEADLINE": "Add multisignature address",
+            "NEW": "New address",
+            "EXISTING": "Existing address",
+            "IMPORT_ADDRESS": "Import address",
+            "IMPORT_MULTISIG_ADDRESS": "Multisignature address to import",
+            "INFORMATION": "Here you can create a new multisignature for you and your co-signers. If the address has already been created by you or a cosigner via MyETPWallet, you can import it in the tab 'Existing address'",
+            "STEP1_TITLE": "Step 1: Select your address and get your public key",
+            "STEP1_EXPLAIN": "First, choose the Avatar or address that you want to use, and get its public key. Then you will have to share your public key with the other co-signers.",
+            "YOUR_PUBLICKEY": "Your public key:",
+            "UPDATE_MY_ADDRESS": "Update my address",
+            "STEP2_TITLE": "Step 2: Enter your co-signers public keys",
+            "STEP2_EXPLAIN": "The second step consist in entering the public key of all the co-signers involved in this multisignature address.",
+            "STEP3_TITLE": "Step 3: Choose the number of signatures required",
+            "STEP3_EXPLAIN": "Now you have to select how many signatures are required in order to do a transaction from the multisignature address. The minimum value is 2, and the maximum value is the total number of persons involved in this address.",
+            "STEP4_TITLE": "Step 4: Generate your multisignature address",
+            "STEP4_EXPLAIN": "If all the information above have been correctly filled, you can generate you multisignature address. You can identity a multisignature address by the first character, a '3' instead of a 'M' for a normal address.",
+            "GET_ADDRESS": "Get address",
+            "STEP5_TITLE": "Step 5: Use your multisignature address!",
+            "STEP5_EXPLAIN": "Your multisignature address has now been created, your co-signers can add it to their wallet by going on this page, in the tab 'Existing address'",
+            "NBR_SIGN_REQ": "Number of signatures required",
+            "GET_PUBLICKEY": "Get public key",
+            "COSIGNER": "Co-signer {{index}}",
+            "COSIGNER_PUBLIC_KEY": "Co-signer public key",
+            "ADDRESS_ALREADY_EXISTS": "This multisignature address has already been added to your wallet: ",
+            "ERROR": "Error while adding the multisignature address",
+            "SELECT_AVATAR_OR_ADDRESS": "Select Avatar or address",
+            "ADD_COSIGNER": "Add co-signer"
+        },
+        "MESSAGE": {
+            "SUCCESS_CREATE_MULTISIG": "Your multisignature address has been created! You can now share it with the co-signers. Your address is: ",
+            "ERROR_GET_PUBLIC_KEY": "Error while getting your public key",
+            "ERROR_ADDRESS_NOT_THIS_WALLET": "This multisignature address doesn't belong to your wallet. Are you sure the multisignature address is correct?",
+            "ERROR_MISSING_MY_PUBLIC_KEY": "Please generate your public key in Step 1 first.",
+            "ERROR_MULTISIG_WRONG_PUBLIC_KEYS": "Please make sure all the public keys in Step 2 are correct",
+            "ERROR_IMPORT_ADDRESS_UNKNOW": "This multisignature address is unknown. Please make sure the address is correct and has been registered at least once via MyETPWallet. To register an address, go to the tab 'New address' on top of this page.",
+            "ERROR_DECODE_MULTISIG_SUBTITLE": "Cannot decode this raw transaction",
+            "ERROR_DECODE_MULTISIG_BODY": "This raw transaction cannot be decoded. Please make sure this raw transaction is correct and has been created from the selected multisignature address",
+            "ERROR_WRONG_PASSWORD": "Wrong password"
+        },
+        "TRANSFER": {
+            "HEADLINE": "Multisignature transfer",
+            "TX_TO_SIGN": "Transaction to sign",
+            "SIGNED_TX": "Signed transaction",
+            "SIGN": "Sign",
+            "CREATE": "Create transaction",
+            "BROADCAST": "Broadcast transaction",
+            "DECODE": "Verify transaction",
+            "FROM_ADDRESS": "Source address",
+            "TO_AVATAR": "Send to avatar",
+            "RECIPIENT_AVATAR": "Recipient avatar",
+            "RECIPIENT_ADDRESS": "Recipient address",
+            "AMOUNT": "Amount",
+            "SEND_ALL": "Send All",
+            "AVAILABLE_BALANCE": "Available balance",
+            "MESSAGE": "Public message (optional)",
+            "MESSAGE_TEXT": "This message will be clearly and publicly displayed in your transaction. Do not enter any personal data!",
+            "GENERATE": "Generate transaction",
+            "NOTICE_TRANSACTION_FEE_UNCOVERED": "Please make sure that you have enough ETP to cover the transaction fee.",
+            "CHANGE_ADDRESS": "Specify change address (optional)",
+            "CREATED_TX_DESCRIPTION": "This is your raw transaction. It has already been signed with your private key, you can now share it with the other co-signers.",
+            "CREATED_TX": "Raw transaction",
+            "HEX_ENCODED_TRANSACTION_TEXT": "Paste hex encoded transaction here",
+            "AUTO": "Automatic"
+        }
+    },
+    "SCAN": {
+        "INVALID_ADDRESS": {
+            "TITLE": "Wrong address",
+            "SUBTITLE": "This is not a correct ETP address. Please scan an ETP address."
+        },
+        "INVALID_BITIDENT": {
+            "TITLE": "Invalid Bitident QRCode",
+            "SUBTITLE": "This is not a valid Bitident QRCode. Please double check the code and verify that you are using the latest version of MyETPWallet."
+        },
+        "DIFFERENT_ASSET": {
+            "TITLE": "The asset currently selected is different from the one used in the QRCode",
+            "SUBTITLE": "Please make sure the other party and you are using the same asset"
+        }
+    },
+    "INFO": {
+        "TITLE": "Information",
+        "SUBTITLE": "Get more information on MyETPWallet and read the open source license.",
+        "INTRODUCTION": "Metaverse is a Blockchain with hybrid consensus (PoW+PoS) that is specialized for asset digitization and digital identity.",
+        "NAME": "MyETPWallet",
+        "VERSION": "Version",
+        "BUILD": "Build",
+        "COMMIT": "Commit",
+        "NETWORK": "Network",
+        "SOURCE_CODE": "Source Code",
+        "FREE_SOFTWARE": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.",
+        "NO_WARRANTY": "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details."
+    },
+    "LICENSE": {
+        "TITLE": "License"
+    },
+    "GENERATE_ADDRESS": {
+        "TITLE": "Update number of addresses",
+        "EXPLANATION": "MyETPWallet uses a HD Wallet (Hierarchical Deterministic) to generate multiple addresses from your seed. Because your addresses are generated in a deterministic way it means that if you reduce the number of your addresses, you can add them back later by increasing your number of addresses. It will always regenerate the same addresses.",
+        "TOTAL_NUMBER_OF_ADDRESSES": "Number of addresses in my wallet",
+        "HELP": {
+            "NUMBER": "In order to keep your wallet smooth, it is recommended to keep the number low. The default value is 10 addresses, maximum {{max_addresses}} addresses"
+        },
+        "ERROR": {
+            "TOO_MANY_ADDRESSES": "The number of addresses is limited to {{max_addresses}} in the Lightwallet. If you need more addresses, please download the Desktop wallet.",
+            "UNKOWN_ERROR": "Error while generating new addresses"
+        },
+        "BUTTON": {
+            "CHANGE_ADDRESS_NUMBER": "Update number of addresses",
+            "CANCEL": "Cancel"
+        }
+    },
+    "GENERATE_VM_ADDRESS": {
+        "TITLE": "Generate VM address",
+        "EXPLANATION": "Before migrating your tokens to the new chain, please create your Virtual Machine address that will receive your tokens",
+        "ERROR": {
+            "UNKOWN_ERROR": "Error while generating new addresses"
+        },
+        "BUTTON": {
+            "CHANGE_ADDRESS_NUMBER": "Generate VM address",
+            "CANCEL": "Cancel"
+        }
+    },
+    "UPDATE": {
+        "AVAILABLE_TEXT": "A new version is available",
+        "APPLY": "Apply Now"
+    },
+    "ADVANCED": {
+        "TITLE": "Advanced",
+        "MENU_ENTRY": "Advanced"
+    },
+    "BURN": {
+        "TITLE": "Burn",
+        "SUBTITLE": "Burn ETP or MST to permanently destroy them",
+        "SELECT_ASSET": "Asset to burn",
+        "CONFIRMATION": {
+            "TITLE": "These tokens will be permanently deleted!",
+            "SUBTITLE": "You are about to burn these tokens. They will be permanently destroyed, and there will be no way to get them back. Are you sure you want to destroy them?",
+            "CANCEL": "Maybe not...",
+            "OK": "Yes, burn them!"
+        }
+    },
+    "DECODE": {
+        "TITLE": "Sign transaction",
+        "SUBTITLE": "Decode and sign a raw transaction",
+        "TX_TO_SIGN": "Transaction to sign or broadcast",
+        "DESCRIPTION": "Please enter the raw transaction, in hexadecimal format. The transaction can be signed or unsigned.",
+        "ERROR_DECODE": {
+            "TITLE": "Cannot decode this raw transaction",
+            "SUBTITLE": "This raw transaction cannot be decoded. Please make sure this raw transaction is correct."
+        }
+    },
+    "VOTE": {
+        "TITLE": "DNA election",
+        "INFORMATION": "Check the information of the current vote on ",
+        "INFORMATION_BAYVIEW": "Futur votes will take place on ",
+        "INFORMATION_DNA": "For further information about DNA, please check the official website ",
+        "UNLOCK_APPROXIMATION_INFORMATION": "*Please be aware that the 'Locked until' date is an approximation based on the number of block remaining and the average blocktime of the last 10000 blocks. It might vary based on block generation speed.",
+        "HISTORY_LOCKED": "Currently locked votes",
+        "HISTORY_UNLOCKED": "Unlocked votes",
+        "VOTE_FOR_DELEGATE": "Vote for delegate: {{delegate}}",
+        "REWARD": "Reward: {{amount}} DNA",
+        "LOCKED_SINCE_BLOCK": "Locked since block {{block}}",
+        "LOCKED_UNTIL_BLOCK": "Locked until block {{block}}"
+    },
+    "SWAP": {
+        "MENU_ENTRY": "ETP migration",
+        "TITLE": "ETP migration",
+        "CLOSED": "The migration is currently closed. Please come back later!",
+        "EXPLANATION": "This migration service is one-way from the UTXO chain to the Metaverse Virtual Machine.",
+        "WARNING_RED": "You will not be able to swap back to the UTXO chain.",
+        "WARNING": "Most exchanges only support the UTXO chain at the moment. We recommend you only migrate the amount of ETP you plan to use in the Metaverse Virtual Machine. ",
+        "UPDATE_REQUIRED": "Please update MyETPWallet to version {{requiredVersion}} or above in order to be able to migrate",
+        "LOWER_MIN_AMOUNT": "Please send at least {{minAmount}} ETP to migrate to the MVM",
+        "NO_VM_ADDRESS": {
+            "TITLE": "No VM address",
+            "SUBTITLE": "Please create a Virtual Machine address before migrating your ETP"
+        },
+        "INVALID_VM_ADDRESS": {
+            "TITLE": "Invalid VM address",
+            "SUBTITLE": "Your VM address is invalid. Please logout and login again to regenerate your VM address, or update your wallet to the latest version."
+        }
+    },
+    "SEND_VM": {
+        "TITLE": "Transfer in the MVM",
+        "NOTICE_NO_BALANCE": "You do not have any balance",
+        "GAS_PRICE": "Gas price (Sats)",
+        "GAS": "Gas limit"
+    },
+    "TX_VM": {
+        "FROM": "From:",
+        "TO": "To:"
+    },
+    "EXPORT_PRIVATE_KEY_VM_ADDRESS": {
+        "TITLE": "Export VM address Private Key",
+        "WARNING": "The Private Key allows the spending of the funds on the address, please be careful where you use or store it. Note that this private key provides access to your VM address only, it does not allow spending of funds on your other addresses.",
+        "PASSWORD": "Password",
+        "BUTTON": "Show Private Key",
+        "YOUR_KEY": "Your VM address private key:"
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "MyETPWallet",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
