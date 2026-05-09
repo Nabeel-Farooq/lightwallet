@@ -8,12 +8,6 @@ if (environment.production) {
   enableProdMode()
 }
 
-async function bootstrap(): Promise<void> {
-  try {
-    await platformBrowserDynamic().bootstrapModule(AppModule)
-  } catch (error) {
-    console.error('Failed to bootstrap Angular application:', error)
-  }
-}
-
-void bootstrap()
+platformBrowserDynamic()
+  .bootstrapModule(AppModule)
+  .catch(err => console.error('Bootstrap error:', err))
