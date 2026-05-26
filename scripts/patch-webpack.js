@@ -1,15 +1,35 @@
-const fs = require('fs')
-const f = 'node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/webpack-configs/browser.js';
+const fs = require("fs");
+const path = require("path");
 
-console.log('start webpack patch to activate crypto')
+const f = path.resolve(
+  __dirname,
+  "node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/webpack-configs/browser.js"
+);
 
-fs.readFile(f, 'utf8', function (err, data) {
-	if (err) {
-		return console.log(err);
-	}
-	let result = data.replace(/node: false/g, "node: {crypto: true, stream: true, fs: 'empty', net: 'empty'}");
+console.log("start webpack patch to activate crypto");
 
-	fs.writeFile(f, result, 'utf8', function (err) {
-		if (err) return console.log(err);
-	});
+fs.readFile(f, "utf8", (err, data) => {
+  if (err) {
+    console.error("Failed to read webpack config:", err);
+    process.exit(1);
+  }
+
+  if (!data.includes("node: false")) {
+    console.log("Patch already applied or target not found.");
+    return;
+  }
+
+  const result = data.replace(
+    /node: false/g,
+    "node: {crypto: true, stream: true, fs: 'empty', net: 'empty'}"
+  );
+
+  fs.writeFile(f, result, "utf8", (err) => {
+    if (err) {
+      console.error("Failed to write webpack config:", err);
+      process.exit(1);
+    }
+
+    console.log("Webpack crypto patch applied successfully.");
+  });
 });
